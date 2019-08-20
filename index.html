@@ -13,12 +13,17 @@
 		var newDomain = "https://www.mecloud.cc"
 		
 		var para = GetUrlParam("tdsourcetag");
+		$("#newDomain").attr("href",newDomain);
+		$("#newDomainText").text(newDomain);
+		
+		/**
 		if(para != ''){
 			location.href = newDomain;
 		}else{
 			$("#newDomain").attr("href",newDomain);
 			$("#newDomainText").text(newDomain);
 		}
+		*/
 	});
 	
 	
